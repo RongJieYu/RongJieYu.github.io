@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YuRongJie - Profile</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        header {
+            display: flex;
+            align-items: center;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+        header img {
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            margin-right: 30px;
+            border: 3px solid #007bff;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        }
+        header h1 {
+            margin: 0;
+            color: #007bff;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 5px 0;
+            color: #666;
+            font-size: 1.1em;
+        }
+        .contact-info {
+            list-style: none;
+            padding: 0;
+            margin-top: 10px;
+        }
+        .contact-info li {
+            display: inline-block;
+            margin-right: 20px;
+            font-size: 0.95em;
+            color: #555;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #007bff;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+        h3 {
+            color: #333;
+            margin-top: 20px;
+            font-size: 1.3em;
+        }
+        ul {
+            list-style: disc;
+            margin-left: 20px;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 8px;
+            color: #444;
+        }
+        .education-item, .project-item, .award-item {
+            margin-bottom: 15px;
+            padding-left: 10px;
+            border-left: 4px solid #e9ecef;
+        }
+        .education-item p, .project-item p, .award-item p {
+            margin: 5px 0;
+        }
+        .grade-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        .grade-table th, .grade-table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        .grade-table th {
+            background-color: #f8f9fa;
+            color: #333;
+            font-weight: bold;
+        }
+        .grade-table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="https://i.imgur.com/your-image-here.jpg" alt="余荣杰的头像"> <!-- 请替换为您的头像图片链接 -->
+            <div>
+                <h1>余荣杰</h1>
+                <p>性别: 男 | 政治面貌: 中共党员</p>
+                <ul class="contact-info">
+                    <li>籍贯: 江西上饶</li>
+                    <li>邮箱: 225913460@qq.com</li>
+                </ul>
+            </div>
+        </header>
+
+        <section class="section">
+            <h2>报考信息</h2>
+            <div class="education-item">
+                <p><strong>报考院校:</strong> 江西财经大学</p>
+                <p><strong>报考专业:</strong> 计算机技术</p>
+                <p><strong>考生号:</strong> ***************</p>
+            </div>
+            <h3>初试成绩</h3>
+            <table class="grade-table">
+                <thead>
+                    <tr>
+                        <th>初试科目</th>
+                        <th>政治</th>
+                        <th>英语(二)</th>
+                        <th>数学(二)</th>
+                        <th>专业课</th>
+                        <th>总分</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>初试成绩</td>
+                        <td>61</td>
+                        <td>76</td>
+                        <td>106</td>
+                        <td>123</td>
+                        <td>366</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="section">
+            <h2>教育背景</h2>
+            <div class="education-item">
+                <p><strong>毕业时间:</strong> 预计2025年7月1日</p>
+                <p><strong>学校:</strong> 江西财经大学</p>
+                <p><strong>专业:</strong> 计算机科学与技术(VR)</p>
+                <p><strong>主修课程:</strong> 计算机网络(94)、C++程序设计(92)、C#程序设计语言(89)、操作系统原理(89)、三维动画设计(95)、VR引擎程序设计(93)、Unity3D虚拟现实项目实训(93)、人机交互技术(94)</p>
+                <p><strong>专业成绩:</strong> 加权成绩 89 | GPA3.9 | 专业排名第2</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>项目经历</h2>
+            <div class="project-item">
+                <h3>基于 Unity3D 的中学化学虚拟仿真系统</h3>
+                <p>本项目是基于 Unity3D 引擎开发的中学化学实验虚拟仿真系统。系统结合了 DoTween、Highlight 等插件, 以及 Json 数据持久化技术, 采用动画系统和精细的 3D 模型模拟, 提供高质量的虚拟实验体验。此外, 系统集成了答题系统和数据持久化功能, 全面支持实验考核与学习进度跟踪。项目内容涵盖实验原理解析、3D 实验设备展示、互动式实验操作演示、教学视频整合等多个模块, 旨在为学生提供一个直观、互动、全面的化学实验学习平台。</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>荣誉奖项</h2>
+            <div class="award-item">
+                <ul>
+                    <li>校级奖学金</li>
+                    <li>“优秀学生干部”荣誉称号 (2023-2024 学年)</li>
+                    <li>“学业之星”荣誉称号 (2023-2024 学年)</li>
+                    <li>英语四级</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>个人评价</h2>
+            <ul>
+                <li><strong>专业基础:</strong> 略。</li>
+                <li><strong>编程语言:</strong> 略。</li>
+                <li><strong>英语能力:</strong> 略。</li>
+                <li><strong>个人能力:</strong> 略。</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
