@@ -1,5 +1,5 @@
 # YuRongJie - Profile
-<img src="ky.jpg" width="10%" alt="YuRongJie">  Welcome to my home
+<img src="ky.jpg" width="10%" alt="YuRongJie">
 **Gender**: Male | **Political Status**: CPC Member
 **Hometown**: Shangrao, Jiangxi | **Email**: 225913460@qq.com
 
